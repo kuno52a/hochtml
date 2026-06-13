@@ -1,18 +1,16 @@
 body{
-    background-color: pink;
-    background-image: url("https://www.tnc.com.vn/uploads/newp/n2025/hinh-nen-cute-3066.webp");
-    background-size: none;
+    background-color: rgb(255, 255, 255);
 }
 h1{
-   color: aliceblue;
+   color: rgb(0, 0, 0);
 }
 p{
-    color: yellowgreen;
-    font-size: 30px;
+    color: black;
+    font-size: 20px;
     line-height: 1.5;
-    font-family: 'Time New Roman';
-    text-align: justify;
-    font-weight: bold;
+    font-family: none;
+    text-align: left;
+    font-weight: none;
     text-decoration: none;
     text-transform: none;
 }
