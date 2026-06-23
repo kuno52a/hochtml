@@ -1,0 +1,57 @@
+
+.name-row{
+    display: flex;
+    gap:20px;
+}
+
+.name-box{
+    width:200px;
+}
+
+.name-box input{
+    width:100%;
+    padding:8px;
+    box-sizing:border-box;
+}
+
+.name-box small{
+    display:block;
+    margin-top:5px;
+}
+.name-box2{
+    width:200px;
+}
+.name-box2 input{
+    width:210%;
+    padding:8px;
+    box-sizing:border-box;
+}
+.name-box2 small{
+    display:block;
+    margin-top:5px;
+}
+.name-box3{
+    width:200px;
+}
+.radio-group{
+    border:1px solid #7fb8c8;
+    padding:10px;
+    margin:10px 0;
+    width:200%;
+}
+main{
+    margin:0 auto;
+    max-width: 420px;
+}
+header{
+    text-align:center;
+    margin-bottom:20px;
+    color:#ffffff;
+    background-color:#93d5ff;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    background-color:#94f8ff;
+}

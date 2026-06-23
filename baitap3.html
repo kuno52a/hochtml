@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/layout2.css"/>
+</head>
+<body>
+    </header>
+        <main>
+            <header>
+        <div class="container">
+            <h2 style="text-align: center;">Employment Separation Form</h2>
+        </div>
+    </header>
+            <form method="post" action="submit_form.php">
+             <label>Full Name</label>
+
+            <div class="name-row">
+                <div class="name-box">
+                    <input type="text" placeholder="Enter first name">
+                    <small>First Name</small>
+                 </div>
+
+            <div class="name-box">
+                    <input type="text" placeholder="Enter last name">
+                    <small>Last Name</small>
+                </div>
+            </div>
+                <div class="name-box2">
+                    <label>Employee ID </label>
+                    <input type="text" placeholder="Enter employee ID">
+                 </div>
+            <div class="name-box2">
+                    <label>Personal Email </label>
+                    <input type="text" placeholder="Enter department">
+                    </div>
+            <div class="name-box2">
+                    <label>Last Work Date </label>
+                    <input type="date" placeholder="date"><br>
+                    <small>DD/MM/YYYY</small>
+                    </div> 
+            <div class="name-box2">
+                    <label>Reason for Departure </label>
+                    <input type="text" placeholder="Enter reason for departure">
+                    </div>              
+            <div class="name-box3">
+                    <label>Return of all company property </label>
+                    <div class="radio-group">
+                    <input type="radio" name="property_return" value="yes"> Yes
+                    </div>
+                    <div class="radio-group">
+                    <input type="radio" name="property_return" value="no"> No
+                    </div>
+                    <div class="radio-group">
+                    <input type="radio" name="property_return" value="Other"> Other
+                    </div>
+                </div>
+            <div class="name-box2">
+                    <label>Exit Interview Schedule </label>
+                    <input type="datetime-local" name="exit_interview" value="yes">
+                    </div>  
+            <div class="name-box2">
+                    <label>Comments feedback </label>
+                    <textarea placeholder="Enter additional comments"></textarea>
+                    </div>
+            <div class="name-box2">
+                    <button type="submit">Submit</button>
+                    </div>                               
+            </form>
+                 
+</header>
